@@ -35,7 +35,7 @@ const ParticipateBonuses = (
     await loadData();
   };
 
-  const handleComplite = () => {
+  const handleComplete = () => {
     onComplete();
   }
 
@@ -60,7 +60,7 @@ const ParticipateBonuses = (
     return (
       <div data-testid="ok">
         <p>Программа успешно подключена</p>
-        <ContextButton onClick={handleComplite}>Ok</ContextButton>
+        <ContextButton onClick={handleComplete}>Ok</ContextButton>
       </div>
     );
   }
